@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Target text</h1>
+                        <form>
+                            <textarea id="textareaInput" rows="4" cols="50" placeholder="Enter text"></textarea><br>
+                        </form>
+                    </div>
+                    <div class="card-body">
+                        <form >
+                            <input type="text" id="textInput" placeholder="Matn kiriting" class="form-control my-2"><br>
+                            <button type="submit" onclick="checkWords(event)" class="btn btn-success">Tekshirish</button>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <p>Result : <span id="result"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./task1.js"></script>
+</body>
+</html>
